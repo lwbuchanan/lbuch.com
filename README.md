@@ -1,1 +1,0 @@
-# lwbuchanan.github.io
