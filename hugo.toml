@@ -1,7 +1,7 @@
 baseURL = 'https://lwbuchanan.github.io/'
 languageCode = 'en-us'
 title = 'Luke Buchanan'
-theme = 'archie'
+theme = 'archie_custom'
 copyright = "© Luke Buchanan"
 
 [caches]
@@ -9,7 +9,7 @@ copyright = "© Luke Buchanan"
         dir = ":cacheDir/images"
 
 [params]
-    mode="auto"
+    mode="toggle"
 	useCDN=false
 	subtitle = "subtitle"
 
@@ -18,12 +18,23 @@ name = "GitHub"
 icon = "github"
 url = "https://github.com/lwbuchanan"
 
+[[params.social]]
+name = "LinkedIn"
+icon = "linkedin"
+url = "https://www.linkedin.com/in/luke-buchanan-6145b81b3/"
+
+
 [[menu.main]]
-name = "Home"
-url = "/"
+name = "Resume"
+url = "/resume"
 weight = 1
 
 [[menu.main]]
 name = "Projects"
 url = "/projects"
 weight = 2
+
+[[menu.main]]
+name = "Posts"
+url = "/posts"
+weight = 3

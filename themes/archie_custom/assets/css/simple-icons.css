@@ -1507,8 +1507,6 @@
 .si-discourse.si--color::before { color: #000000; }
 .si-discover::before { content: "\eced"; }
 .si-discover.si--color::before { color: #FF6000; }
-.si-disqus::before { content: "\ecee"; }
-.si-disqus.si--color::before { color: #2E9FFF; }
 .si-disroot::before { content: "\ecef"; }
 .si-disroot.si--color::before { color: #50162D; }
 .si-distrokid::before { content: "\ecf0"; }
